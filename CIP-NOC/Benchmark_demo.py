@@ -1,4 +1,4 @@
-import streamlit as st
+rimport streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
@@ -22,7 +22,7 @@ if uploaded_file:
             selected = st.sidebar.multiselect(col, options, default=options)
             df = df[df[col].astype(str).isin(selected)]
 
-    st.header("Summary statistics")
+    st.header("Benchamrk Overview")
 
     summary = {
         "Statistic": [
