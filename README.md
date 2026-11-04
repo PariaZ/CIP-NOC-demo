@@ -1,2 +1,2 @@
 # CIP-NOC-demo
-CIP-NOC 
+CIP-NOC demo and prototyping
